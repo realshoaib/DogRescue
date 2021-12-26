@@ -1,0 +1,100 @@
+.dogs-list-section {
+    width: 75%;
+}
+
+.dogs-rescue-center-row {
+    background-color: #53bd63;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.dogs-rescue-center-heading {
+    font-size: 25px;
+    border-bottom: 2px solid;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.dogs-rescue-center-subheading {
+    text-align: left;
+    font-size: 14px;
+}
+
+.find-dog-text {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.search-container {
+    width: 100%;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-input {
+    margin-bottom: 0px;
+}
+
+.dogs-list-card-row {
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+@media screen and (max-width:767px) {
+    .dogs-list-section {
+        width: 90%;
+    }
+
+    .dogs-rescue-center-row {
+        background-color: #53bd63;
+        color: #fff;
+        border-radius: 5px;
+        padding: 8%;
+    }
+
+    .dogs-rescue-center-heading {
+        font-size: 20px;
+        border-bottom: 2px solid;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .dogs-rescue-center-subheading {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .find-dog-text {
+        width: 100%;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .search-container {
+        width: 100%;
+    }
+
+    .search-form {
+        display: flex;
+    }
+
+    .search-input {
+        margin-bottom: 0px;
+    }
+
+    .dogs-list-card-row {
+        justify-content: center;
+        margin-bottom: 30px 0px;
+    }
+}

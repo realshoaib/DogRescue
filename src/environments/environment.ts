@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  listOfBreedUrl: 'https://dog.ceo/api/breeds/list/all',
+  randomImageUrl: 'https://dog.ceo/api/breeds/image/random'
 };
 
 /*

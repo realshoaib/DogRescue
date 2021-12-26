@@ -1,0 +1,27 @@
+<app-random-dog-image></app-random-dog-image>
+<div class="container-fluid dogs-list-section">
+    <div class="row dogs-rescue-center-row">
+        <p class="dogs-rescue-center-heading">Dogs Rescue Center</p>
+        <p class="dogs-rescue-center-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="find-dog-text">Find a rescue dog near you</p>
+
+        <div class="search-container">
+            <div class="form-group search-input">
+                <input type="text" class="form-control" id="search-text" aria-describedby="search-text"
+                    (keyup)="filterDogs($event)" placeholder="Search" autofocus name="search">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row dogs-list-card-row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4" *ngFor="let dogName of filterDogNames">
+            <app-dog-card [dogName]="dogName"></app-dog-card>
+        </div>
+    </div>
+
+</div>

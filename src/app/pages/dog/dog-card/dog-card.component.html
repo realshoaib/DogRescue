@@ -1,0 +1,16 @@
+
+
+<div class="card dog-card">
+    <div class="card-img-wrapper">
+        <img src="{{dogImage || './assets/dog-api-logo.svg'}}" alt="Dog image" class="card-img-top">
+        <div class="dog-icons animate text-center">
+            <button routerLink='/dogs/{{dogName}}' class="btn btn-primary mb-2">Go to Details</button>
+        </div>
+    </div>
+    <div class="card-body p-2 text-center">
+        <p class="card-title mb-1">
+            {{dogName | titlecase}}
+        </p>
+        <p class="card-text text-muted">London</p>
+    </div>
+</div>

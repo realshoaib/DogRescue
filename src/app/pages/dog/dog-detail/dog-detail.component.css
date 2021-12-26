@@ -1,0 +1,163 @@
+.green-bar-row {
+    border-radius: 5px;
+    color: #fff;
+    height: 125px;
+    background-color: #53bd63;
+    align-items: center;
+}
+
+.green-bar-text {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 0px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.dog-detail-row {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.back-to-search-results {
+    font-size: 18px;
+    color: black;
+}
+
+.right-card {
+    text-align: left;
+}
+
+.right-card-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.right-card-title>sub {
+    color: #53bd63;
+    font-size: 15px;
+}
+
+.right-card-text {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.about-heading, .likes-heading, .type-of-home-heading {
+    color: #53bd63;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-subheading, .likes-subheading, .type-of-home-subheading {
+    font-size: 15px;
+}
+
+.gallery-images-list-row {
+    padding-left: 10px;
+}
+
+.gallery-images-list-item {
+    padding: 10px;
+    margin: auto;
+    list-style: none;
+}
+
+.gallery-image {
+    height: 200px;
+    min-width: 250px;
+}
+
+.meet-me-button {
+    width: 30%;
+}
+
+.donate-button {
+    width: 20%;
+    float: right;
+}
+
+@media screen and (max-width:767px) {
+
+    .green-bar-row {
+        border-radius: 5px;
+        color: #fff;
+        height: 125px;
+        background-color: #53bd63;
+        align-items: center;
+    }
+
+    .green-bar-text {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-style: italic;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+
+    .dog-detail-row {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .back-to-search-results {
+        font-size: 15px;
+        color: black;
+    }
+
+    .right-card {
+        text-align: left;
+    }
+
+    .right-card-title {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .right-card-title>sub {
+        color: #53bd63;
+        font-size: 15px;
+    }
+
+    .right-card-text {
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .about-heading, .likes-heading, .type-of-home-heading {
+        color: #53bd63;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .about-subheading, .likes-subheading, .type-of-home-subheading {
+        font-size: 13px;
+    }
+
+    .gallery-images-list-row {
+        padding-left: 10px;
+    }
+
+    .gallery-images-list-item {
+        padding: 10px;
+        margin: auto;
+        list-style: none;
+    }
+
+    .gallery-image {
+        height: 170px;
+        min-width: 210px;
+    }
+
+    .meet-me-button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .donate-button {
+        display: block;
+        width: 100%;
+    }
+}

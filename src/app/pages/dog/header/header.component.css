@@ -1,0 +1,81 @@
+/* Navbar CSS starts */
+.nav-menu-item{
+    color: black !important;
+}
+.hamburger-menu{
+    color: black;
+}
+.navbar-section {
+    padding: 10px 10px;
+}
+.nav-menu-row {
+    justify-content: center;
+    margin: auto !important;
+    padding: 10px 10px;
+}
+.nav-menu-logo {
+    text-align: center;
+}
+.innovative-logo-navbar {
+    width: 295px;
+}
+.navbar .nav-item .dropdown-menu {
+    display: none;
+}
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+    border-top: 1px solid transparent;
+    border-image: linear-gradient(to right, #fff 0%, rgb(141, 187, 69) 100%);
+    border-image-slice: 1;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.navbar .nav-item .dropdown-menu li {
+    border-bottom: 1px solid #676767;
+    padding-bottom: 0px;
+    width: 85%;
+}
+.navbar .nav-item .dropdown-menu li:hover {
+    border-bottom: 1px solid #80B247;
+    color: #80B247;
+    width: 96%;
+}
+.navbar .nav-item .dropdown-menu li a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 15px;
+    color: #676767;
+    font-family: "MyriadPro";
+}
+.navbar .nav-item .dropdown-menu li a:hover {
+    background-color: unset;
+    color: #80B247 !important;
+}
+.nav-link {
+    text-decoration: none;
+    padding: 10px 25px !important;
+    font-size: 15px;
+    width: max-content;
+}
+.adjust-toggler {
+    line-height: 0 !important;
+}
+/* Navbar CSS ends */
+
+
+.header-icon{
+    color: green;
+    font-size: 30px;
+}
+.user-icon{
+    color: black;
+    font-size: 30px;
+}
+.nav-menu-link{
+    text-transform: uppercase;
+    font-weight: 500;
+}

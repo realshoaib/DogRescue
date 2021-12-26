@@ -1,0 +1,67 @@
+<div class="container-fluid dog-detail-section">
+    <div class="row green-bar-row">
+        <div class="col green-bar-div">
+            <p class="green-bar-text">Dogs Rescue Center</p>
+        </div>
+    </div>
+    <div class="row dog-detail-row" *ngIf="dog">
+        <div class="col-12 text-left mb-3">
+            <i class="fa fa-chevron-left mr-2"></i>
+            <a routerLink='/home' class="back-to-search-results">Back to Search Results</a>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 left-section">
+            <div class="card left-card">
+                <img src="{{image.message || './assets/dog-api-logo.svg'}}" alt="Dog"
+                    class="card-img-top img-thumbnail">
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-8 right-section">
+            <div class="card right-card">
+                <div class="card-body">
+                    <h5 class="right-card-title">{{dog | titlecase}} <sub>London</sub></h5>
+                    <p class="right-card-text">
+                        <small class="text-muted">I'm looking for a new home...</small>
+                    </p>
+                    <div class="about-section">
+                        <p class="about-heading">About {{dog | titlecase}}</p>
+                        <p class="about-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="likes-section">
+                        <p class="likes-heading">Likes</p>
+                        <p class="likes-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="type-of-home-section">
+                        <p class="type-of-home-heading">Type of Home Needed</p>
+                        <p class="type-of-home-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="gallery-images-section">
+                        <ul class="row gallery-images-list-row">
+                            <li class="col-sm-12 col-md-6 col-lg-6 col-xl-4 gallery-images-list-item"
+                                *ngFor="let image of galleryImages">
+                                <img src="{{image}}" class="gallery-image" height="180" width="180"
+                                    alt="Gallery Images">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="button-container">
+                        <button class="btn btn-success meet-me-button"><i class="fa fa-map-marker mr-2"></i>Come & Meet
+                            Me</button>
+                        <button class="btn btn-warning donate-button">Donate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
