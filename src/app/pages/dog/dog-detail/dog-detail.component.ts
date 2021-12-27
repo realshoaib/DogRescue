@@ -38,7 +38,6 @@ export class DogDetailComponent implements OnInit {
   loadGalleryImages() {
     this.dogService.getGalleryImages(this.route.snapshot.params.id || '').subscribe(images => {
       this.galleryImages = images.message.slice(0, 9)
-      console.log(this.galleryImages)
     })
   }
 

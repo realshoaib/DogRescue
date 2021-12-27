@@ -10,7 +10,7 @@
             <a routerLink='/home' class="back-to-search-results">Back to Search Results</a>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 left-section">
-            <div class="card left-card">
+            <div class="card left-card" *ngIf="image">
                 <img src="{{image.message || './assets/dog-api-logo.svg'}}" alt="Dog"
                     class="card-img-top img-thumbnail">
             </div>
